@@ -1,0 +1,8 @@
+{
+  "ClassName": "Gimmick",
+  "Name": "PowerSpring",
+  "Tag": 32,
+  "GimmickTag": 8,
+  "Pos": [ 0, 0, 0 ],
+  "ModelFileName": "Data/Object/PowerSpring/PowerSpring.gltf"
+}

@@ -1,0 +1,41 @@
+{
+  "StageObjects": [
+    {
+      "ClassName": "GameObject",
+      "Name": "StageMap",
+      "Tag": 4,
+      "ModelFileName": "Data/StageMap/Stage_Presentation/Stage_Presentation.gltf",
+      "Scale": [ 1, 1, 1 ]
+    },
+    {
+      "ClassName": "Object",
+      "Name": "WoodBlock",
+      "Tag": 8,
+      "Pos": [ -6, 2, 2.1 ],
+      "Scale": [ 1.2, 1.2, 1.2 ],
+      "ModelFileName": "Data/Object/Test/Wood/Wood.gltf"
+    },
+    {
+      "ClassName": "Object",
+      "Name": "SteelBlock",
+      "Tag": 8,
+      "Pos": [ -5, 2, -4 ],
+      "ModelFileName": "Data/Object/Test/Steel/Steel.gltf"
+    },
+    {
+      "ClassName": "Object",
+      "Name": "ClothBlock",
+      "Tag": 8,
+      "Pos": [ -5, 2, -1 ],
+      "ModelFileName": "Data/Object/Test/Cloth/Cloth.gltf"
+    },
+
+    {
+      "ClassName": "Object",
+      "Name": "WoodBlock",
+      "Tag": 8,
+      "Pos": [ -1, 2.0, -1 ],
+      "ModelFileName": "Data/Object/Test/Wood/Wood.gltf"
+    }
+  ]
+}

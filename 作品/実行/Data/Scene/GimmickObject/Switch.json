@@ -1,0 +1,8 @@
+{
+  "ClassName": "Gimmick",
+  "Name": "Switch",
+  "Tag": 36,
+  "GimmickTag": 1,
+  "Pos": [ 0, 0, 0 ],
+  "ModelFileName": "Data/Object/Switch/Switch.gltf"
+}

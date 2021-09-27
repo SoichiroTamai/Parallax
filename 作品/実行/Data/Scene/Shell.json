@@ -1,0 +1,8 @@
+{
+  "Name": "Shell",
+  "ClassName": "Gimmick",
+  "Tag": 32,
+  "GimmickTag": 32,
+  "Pos": [ 0, 0, 0 ],
+  "ModelFileName": "Data/Object/Cannon/Shell/Shell.gltf"
+}

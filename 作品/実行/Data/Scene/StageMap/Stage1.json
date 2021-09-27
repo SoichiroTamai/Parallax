@@ -1,0 +1,12 @@
+{
+  "StageObjects": [
+    
+    {
+      "ClassName": "GameObject",
+      "Name": "StageMap",
+      "Tag": 4,
+      "ModelFileName": "Data/StageMap/Stage1/StageMap1.gltf",
+      "Scale": [ 1, 1, 1 ]
+    }
+  ]
+}

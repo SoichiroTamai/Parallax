@@ -1,0 +1,30 @@
+{
+  "StageObjects": [
+
+    {
+      "ClassName": "GameObject",
+      "Name": "StageMap",
+      "Tag": 4,
+      "ModelFileName": "Data/StageMap/Stage_Gimmick/GimmickStage.gltf",
+      "Scale": [ 1, 1, 1 ]
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/Switch.json",
+      "Name": "Switch_01",
+      "Pos": [ 6.5, -3.0, 17.5 ]
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/Switch.json",
+      "Name": "Switch_02",
+      "Pos": [ -6, -1.2, 45 ]
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/Cannon.json",
+      "Name": "Cannon_01",
+      "Pos": [ 0, 0, 39 ]
+    }
+  ]
+}

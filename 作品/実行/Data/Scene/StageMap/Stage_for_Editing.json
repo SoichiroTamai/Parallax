@@ -1,0 +1,70 @@
+{
+  "StageObjects": [
+    {
+      "ClassName": "GameObject",
+      "Name": "StageMap",
+      "Tag": 4,
+      "ModelFileName": "Data/StageMap/Stage_for_Editing/StageMap.gltf",
+      "Scale": [ 1, 1, 1 ]
+    },
+
+    {
+      "ClassName": "Object",
+      "Name": "Pawn00",
+      "Tag": 8,
+      "Pos": [ 5, 2, 2 ],
+      "ModelFileName": "Data/Object/Pawn/Pawn.gltf",
+      "Scale": [ 0.1, 0.1, 0.1 ]
+    },
+
+    {
+      "ClassName": "Object",
+      "Name": "LongDesk00",
+      "Tag": 8,
+      "Pos": [ 5, 0.5, 2 ],
+      "ModelFileName": "Data/Object/LongDesk/LongDesk.gltf"
+    },
+
+    {
+      "ClassName": "Object",
+      "Name": "WoodBlock",
+      "Tag": 8,
+      "Pos": [ -5, 10, -8 ],
+      "ModelFileName": "Data/Object/Test/Wood/Wood.gltf"
+    },
+
+    {
+      "ClassName": "Object",
+      "Name": "SteelBlock",
+      "Tag": 8,
+      "Pos": [ -5, 10, -5 ],
+      "ModelFileName": "Data/Object/Test/Steel/Steel.gltf"
+    },
+    {
+      "ClassName": "Object",
+      "Name": "ClothBlock",
+      "Tag": 8,
+      "Pos": [ -5, 10, -2 ],
+      "ModelFileName": "Data/Object/Test/Cloth/Cloth.gltf"
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/Switch.json",
+      "Name": "Switch",
+      "Pos": [ 5, 0.5, -2 ]
+
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/MoveBox.json",
+      "Name": "MoveObj",
+      "Pos": [ 5, 0, -5 ]
+    },
+    {
+      "ClassName": "Gimmick",
+      "Prefab": "Data/Scene/GimmickObject/PowerSpring.json",
+      "Name": "PowerSpring",
+      "Pos": [ 5, 0.5, -8 ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "SceneObjects": [
+
+    {
+      "ClassName": "ActionGameProcess",
+      "Name": "GameProcess"
+    },
+
+    {
+      "ClassName": "Human",
+      "Name": "PlayerHuman",
+      "Tag": 19,
+      "ModelFileName": "Data/Character/Robot/robot.gltf",
+      "Pos": [ 0, 3, 0 ]
+    }
+  ]
+}

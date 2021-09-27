@@ -1,0 +1,8 @@
+{
+  "ClassName": "Gimmick",
+  "Name": "MoveObject",
+  "Tag": 36,
+  "GimmickTag": 4,
+  "Pos": [ 0, 0, 0 ],
+  "ModelFileName": "Data/Object/MoveObject/MoveObj.gltf"
+}
