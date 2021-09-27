@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="shift_JIS">
+    <meta name="author" content="玉井宗一郎" >
+    <link href="source\instrucions.css" media="all" rel="stylesheet">
+    <title>Parallax-説明書-</title>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header> <img style="left: -10%" src="source\Header\cloud_1.png"> <h1> Parallax - 作品説明書 - </h1>  <img style="left: 10%" src="source/Header/cloud_2.png"> </header>
+   
+    <!-- 本文 -->
+    <section class="MainBox">
+
+        <!-- 目次 -->
+        <nav>
+            <!-- 題目 -->
+            <h1 style="font-size: 30px; text-align: center;">ゲーム紹介及び操作方法</h1>
+
+            <!-- 一覧 -->
+            <nav class="TableOfContentsBox">
+
+                <div style="margin-bottom: 5%" onclick="obj=document.getElementById('目次').style; obj.display=(obj.display=='none')?'block':'none';" class="Centered">
+
+                    <div style="font-size: 20px; display:inline;">【 一覧 】</div>
+
+                    <!-- バーガーアイコン -->
+                    <a style="cursor:pointer;" class="icon-menu-lines:before;">
+                        <div id="humberger">
+                            <!-- 3本線 -->
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id ="目次" style="clear:both;" >
+                    <ul>
+                        <li style="list-style:none;">
+                            <ol>
+                                <!-- 1 -->
+                                <li class="Blank-Line">
+                                    <a href="#MP_chapter1">ゲーム紹介</a>
+                                    <ul>
+                                        <li><a href="#MP_chapter1-1">基本情報</a></li>
+                                        <li><a href="#MP_chapter1-2">視差効果</a></li>
+                                    </ul>
+                                </li>
+
+                                <!--2.-->
+                                <li class="Blank-Line">
+                                    <a href="#MP_chapter2">操作方法</a>
+                                </li>
+
+                                <!--3.-->
+                                <li>
+                                    <a href="#MP_Youtube">プレイ動画</a>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <!-- 説明 -->
+        <main>
+            <!-- ゲーム紹介(chapter1) -->
+            <section>
+                <h1 class="ItemName" id="MP_chapter1">　ゲーム紹介</h1>
+
+                <!-- タイトル + 一言 -->
+                <section>
+                    <img src="source\Introduction\Title.png" alt="タイトル画面">
+
+                    <p class="Centered" style="font-size:120%">
+                        このゲームでは知覚が現実となり<br>
+                        遠近法を利用したトリックが用いられております
+                    </p>
+                </section>
+
+                <!-- 基本情報(chapter1-1) -->
+                <section>
+                    <h2 class="ItemName-Child" id="MP_chapter1-1">　基本情報</h2>
+                    <table border="1">
+                        <tr>
+                            <th class="Main_th_Name">タイトル</th>
+                            <td class="Main_td_Details">Parallax (パララックス)</td>
+                        </tr>
+                        <tr>
+                            <th class="Main_th_Name">ジャンル</th>
+                            <td class="Main_td_Details">脱出ゲーム</td>
+                        </tr>
+                        <tr>
+                            <th class="Main_th_Name">プレイ人数</th>
+                            <td class="Main_td_Details">１人</td>
+                        </tr>
+                        <tr>
+                            <th class="Main_th_Name">クリア条件</th>
+                            <td class="Main_td_Details">
+                                このゲームでは物の大きさなどを変更し<br>
+                                ふさがっている道を通れるようにしたり<br>
+                                高い場所への足場にしたりし<br>
+                                ゴールを目指すゲームとなっております
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <!-- 視差効果(chapter1-2) -->
+                <section>
+                    <h2 class="ItemName-Child" id="MP_chapter1-2">　視差効果</h2>
+
+                    <!-- 通常 -->
+                    <section>
+                        <h3 class="ItemName-Grandchild">　通常 (物を見る時)</h3>
+
+
+                        <div style="display:flex; justify-content:space-around">
+                            <span>距離が近い時(大きい)</span>
+                            <span>距離が遠い時(小さい)</span>
+                        </div>
+
+                        <div style="width : 50%; height: 50%; display:flex;" class="Blank-Line">
+                            <img src="source\Introduction\Near.png" alt="距離が近い時">
+                            <img src="source\Introduction\Far.png" alt="距離が遠い時">
+                        </div>
+                    </section>
+
+                    <!-- Parallax -->
+                    <section>
+                        <h3 class="ItemName-Grandchild">　Parallax</h3>
+
+                        <p class="Centered" style="font-size:110%">
+                            このゲームでは通常とは異なり<br>
+                            物を動かす時や同じ視点からでは<br>
+                            距離によるサイズの変化は見受けられません
+                        </p>
+
+                        <div style="display:flex; justify-content:space-around">
+                            <span>　　 移動中　 　</span>
+                            <span>手前に引き寄せる</span>
+                        </div>
+
+                        <div style="width : 50%; height: 50%; display:flex;" class="Blank-Line">
+                            <img src="source\Introduction\Move.png" alt="移動中">
+                            <img src="source\Introduction\Attract.png" alt="引き寄せた物">
+                        </div>
+
+                        <p class="Centered" style="font-size:110%; margin-top: 50px;">
+                            しかし視点を変えて確認してみると<br>
+                            手前に引き寄せた物が小さくなっている事が確認できます
+                        </p>
+
+                        <img src="source\Introduction\Another_Perspective.png" alt="別視点">
+
+                        <p class="Centered" style="font-size: 110%; margin-top: 50px;">
+                            実際に物を一定の距離を保ちつつ<br>
+                            持った状態で周りを見渡してみるとイメージしやすいかもしれません
+                        </p>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <!-- 操作方法(chapter2) -->
+            <section>
+                <h1 class="ItemName" id="MP_chapter2">　操作方法</h1>
+
+                <img src="source\Introduction\Move.png" alt="ゲーム画面">
+
+                <table border="1">
+                    <tr>
+                        <th class="Main_th_Name">移動</th>
+                        <td class="Main_td_Details">
+                            W：前進　S：後退　A：右移動　D：左移動
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">ジャンプ</th>
+                        <td class="Main_td_Details">SPACE</td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">視点移動</th>
+                        <td class="Main_td_Details">マウス移動</td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">掴む・離す</th>
+                        <td class="Main_td_Details">
+                            マウス：右クリック<br>
+                            <div style="font-weight:lighter; color:red">※掴める物は縁が白くなり<br>画面中央のアイコンが手に変わります</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">掴んでいる物の<br>奥行を変更</th>
+                        <td class="Main_td_Details">マウスホイール<br> 引き離す：上回転　　引き寄せる：下回転</td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">ゲーム終了</th>
+                        <td class="Main_td_Details">ESC</td>
+                    </tr>
+                    <tr>
+                        <th class="Main_th_Name">デバッグ表示</th>
+                        <td class="Main_td_Details">F2</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <!-- Youtube -->
+        <section class="ItemName" id="MP_Youtube">　プレイ動画</section>
+        <div class="Youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NBfVuD5cb9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <footer>      
+        <address>
+            <div style="text-align: center">
+                お問い合わせ先：<a href="mailto:kd1253680@st.kobedenshi.ac.jp"> メールを作成</a>
+
+                <div style="text-align:right"> 2021 玉井 宗一郎　Parallax</div>
+            </div>
+        </address>
+    </footer>
+
+</body>
+</html>

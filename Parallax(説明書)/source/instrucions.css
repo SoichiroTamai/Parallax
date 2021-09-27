@@ -1,0 +1,192 @@
+/* ヘッダー */
+header {
+    text-align: center;
+    background: #434343;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+    position: relative;
+}
+
+/* リンク(URL) */
+a:link {
+    color: #0000ff;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration-line:underline;
+}
+
+/* テーブルタグ */
+th { text-align: left; }
+
+td { text-align: left; }
+
+/* ナビゲーション (目次) */
+nav img {
+    width: 10%;
+    height: 10%;
+    transition: 0.3s;
+}
+
+nav img:hover {
+    opacity: 0.5;
+}
+
+/* ナビゲーションテーブル */
+.TableOfContentsBox {
+    padding: 0.5em 1em;
+    margin: auto;
+    font-weight: bold;
+    border: solid 1px #000000;
+    width: 50%;
+}
+
+/* 本文全体 */
+.MainBox {
+    padding: 0.5em 1em;
+    margin: auto;
+    font-weight: bold;
+    border: solid 1px #000000;
+    width: 80%;
+}
+
+/* 説明部分 */
+main img {
+    width : 75%;
+    height: 75%;
+    padding: 0% 12.5%;
+}
+
+main table {
+    width: 95%;
+}
+
+main tr {
+    font-size: 16px;
+}
+
+/* テキスト中央揃え */
+.Centered {
+    text-align: center;
+}
+
+/* 空白行追加 (下) */
+.Blank-Line {
+    margin-bottom: 20px;
+}
+
+/* 章 */
+.ItemName {
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background: linear-gradient(90deg,#808080 5px,#cccccc 0%);
+}
+
+/* 節 */
+.ItemName-Child {
+    font-size: 22px;
+    margin-top: 8%;
+    border-left: 5px solid#808080;
+}
+
+/* 項 */
+.ItemName-Grandchild {
+    font-size: 20px;
+    border-bottom: 5px solid#808080;
+}
+
+/* セル */
+.Main_th_Numbe {
+    width:5%;
+    text-align:center;
+}
+
+.Main_th_Name {
+    width: 25%;
+    text-align: center;
+}
+
+.Main_td_Details {
+    width: 100%;
+    text-align: center;
+}
+
+/* 動画 */
+.Youtube {
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+.Youtube iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+/* フッター */
+footer {
+    margin-top: 10px;
+    border-top: groove;
+    background: #cccccc;
+    text-align: center;
+}
+
+address {
+    font-size: 15px;
+}
+
+/* ハンバーガーアイコン */
+#humberger {
+    position: relative;
+    height: 42px;
+    width: 42px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #8080ff;
+    border-radius: 50%;
+    top: 15px;
+    left: 25%;
+}
+#humberger div {
+  position: absolute;
+  left: 7px;
+  height: 4px;
+  width: 24px;
+  background-color: #8080ff;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  top: 7px;
+}
+#humberger div:nth-of-type(2) {
+  top: 17px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 7px;
+}
